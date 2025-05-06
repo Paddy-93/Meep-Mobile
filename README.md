@@ -27,11 +27,9 @@ You can run the app on your physical device using the **Expo Go** app or on an i
 
 ## API Configuration
 
-Update the API base URL in your frontend code (example: `api/jobs.ts`):
+Update the API base URL in your env
 
-    const API_URL = 'http://YOUR_LOCAL_IP:8000';
-
-Replace `YOUR_LOCAL_IP` with your computer's LAN IP address.  
+Replace `API_URL` with your computer's LAN IP address.  
 You can find it using:
 
     ipconfig getifaddr en0      # macOS
@@ -56,8 +54,8 @@ Make sure your Django backend is running and accepting connections:
 
 - View list of available jobs
 - Create new jobs from the mobile app
-- Claim jobs (coming soon)
-- User login and authentication (planned)
+- Claim jobs
+- User login and authentication
 
 ## License
 
