@@ -1,6 +1,8 @@
 {
+  // Base configuration extended from Expo
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    // Enable all strict type-checking options
+    "strict": true,
   }
 }
